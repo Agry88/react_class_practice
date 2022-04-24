@@ -3,8 +3,8 @@
     height: 300px;
     margin-top: 50px;
     display: flex;
+    margin: auto;
     justify-content: space-around;
-
 }
 
 .Todo_list{
