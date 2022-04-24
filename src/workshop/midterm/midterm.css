@@ -1,0 +1,40 @@
+.Todo{
+    width: 750px;
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.Todo_list{
+    width: 300px;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.Todo_list.Todo_list_done{
+    background:#f0ee73;
+}
+
+.Todo_list.Todo_list_notdone{
+    background:#8def87;
+}
+
+.Todo_item{
+    padding-left:10px;
+    padding-bottom: 5px;
+    margin-bottom:10px;
+    border-bottom: 3px solid #000000;
+}
+
+.btn{
+    width: 80px;
+    height: 30px;
+    margin-right: 5px;
+    border-radius: 10px;
+    border: 0px;
+    background-color: #0398fc;
+    color: white;
+    cursor: pointer;
+}
